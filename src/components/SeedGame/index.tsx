@@ -12,7 +12,8 @@ function SeedGame({ onSeedClick }: SeedGameProps) {
 	const maxEnergy = 200;
 	const [value, setValue] = useState(100);
 	const [energy, setEnergy] = useState(maxEnergy);
-	const [nextId, setNextId] = useState(0);
+	setValue(100);
+	setEnergy(150);
 
 	const energyPercentage = (energy / maxEnergy) * 100;
 	
